@@ -1,0 +1,1139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/01/2021, 11:09:02
+    Author     : entra21
+*/
+header {
+    position: absolute;
+    width: 1366px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background-color: RGBA( 25, 25, 112, 1 );
+
+}
+
+.circle1{
+    position: absolute;
+    border-radius: 30%;
+    border-style: ridge;
+    border-color: black;
+    width: 70px;
+    height: 60px;
+    left: 1150px;
+    top: 8px;
+    background: #99ccff;
+    text-decoration: none;
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 3px;
+
+}
+
+.circle2{
+    position: absolute;
+    border-radius: 30%;
+    border-style: ridge;
+    border-color: black;
+    width: 90px;
+    height: 60px;
+    left: 1000px;
+    top: 8px;
+    background: #99ccff;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 1px;
+}
+
+.link{
+    text-decoration: none;
+    color: #000033;
+}
+
+.logo{
+    position: absolute;
+    width: 900px;
+    height: 70px;
+    top: 2px;
+
+}
+
+.corpo{
+    position: absolute;
+    left: 0px;
+    top: 71px;
+    width: 1306px;
+}
+
+.txt1{
+    position: absolute;
+    width: 510px;
+    height: 455px;
+    left: 72px;
+    top: 60px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.control{
+    position: absolute;
+    width: 81%;
+    height: 608px;
+    left: 307px;
+    top: 4px;
+
+}
+
+.msg{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 730px;
+
+}
+
+.txt2{
+    position: absolute;
+    width: 29%;
+    height: 290px;
+    left: 490px;
+    top: 100px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:white;
+
+}
+
+.ret1{
+    position: absolute;
+    width: 32%;
+    height: 410px;
+    left: 15px;
+    top: 30px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50px;
+    border-style: hidden;
+}
+
+.ret2{
+    position: absolute;
+    width: 32%;
+    height: 410px;
+    left: 904px;
+    top: 30px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 50px;
+    border-style: hidden;
+}
+
+.sub1{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 1220px;
+
+}
+
+.proj{
+    position: absolute;
+    width: 70%;
+    height: 310px;
+    left: 200px;
+    right: 30px;
+    top: 50px;
+    border-style: ridge;
+
+}
+
+.sub2{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 1650px;
+
+}
+
+.ret3{
+    position: absolute;
+    width: 476px;
+    height: 646px;
+    left: 820px;
+    top: 60px;
+    border-style: ridge;
+
+}
+
+.ret4{
+    position: absolute;
+    width: 266px;
+    height: 70px;
+    left: 240px;
+    top: 590px;
+    background: lightskyblue;
+    border-style: outset;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 14px;
+}
+
+.txt4{
+    position: absolute;
+    width: 585px;
+    height: 147px;
+    left: 40px;
+    top: 40px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+
+}
+
+.txt5{
+    position: absolute;
+    width: 543px;
+    height: 91px;
+    left: 140px;
+    top: 227px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color:white;
+
+}
+.emoj1{
+    position: absolute;
+    left: 47px;
+    top: 235px;
+}
+
+.txt6{
+    position: absolute;
+    width: 543px;
+    height: 91px;
+    left: 140px;
+    top: 337px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color:white;
+
+}
+.emoj2{
+    position: absolute;
+    left: 47px;
+    top: 354px;
+}
+
+.txt7{
+    position: absolute;
+    width: 543px;
+    height: 91px;
+    left: 140px;
+    top: 449px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color:white;
+
+}
+.emoj3{
+    position: absolute;
+    left: 47px;
+    top: 460px;
+}
+
+.ret5{
+    position: absolute;
+    width: 100%;
+    top: 2280px;
+
+
+}
+
+.txt8{
+    position: absolute;
+    width: 819px;
+    height: 94px;
+    left: 200px;
+    top: 120px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:white;
+
+}
+
+.ret6{
+    position: absolute;
+    width: 296px;
+    height: 243px;
+    left: 40px;
+    top: 320px;
+    border-radius: 18px;    
+    border-style: outset;
+
+}
+
+.ret7{
+    position: absolute;
+    width: 296px;
+    height: 243px;
+    left: 510px;
+    top: 320px;
+    border-radius: 18px;    
+    border-style: outset;
+
+}
+
+.ret8{
+    position: absolute;
+    width: 296px;
+    height: 243px;
+    left: 990px;
+    top: 320px;
+    border-radius: 18px;    
+    border-style: outset;
+
+}
+
+.txt9{
+    position: absolute;
+    left: 120px;
+    top: 560px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+}
+
+.txt10{
+    position: absolute;
+    left: 540px;
+    top: 560px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+}
+
+.txt11{
+    position: absolute;
+    left: 1070px;
+    top: 560px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+}
+
+.ret9{
+    position: absolute;
+    width: 100%;
+    top: 2850px;
+    height: 600px;
+}
+
+.ret10{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 800px;
+    top: 170px;
+    background-color: lightsalmon;
+    border-style: ridge;
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 12px;
+}
+
+.ret11{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 800px;
+    top: 300px;
+    background-color: gold;    
+    border-style: ridge;
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding: 17px;
+}
+
+.ret12{
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    left:100px;
+    top: 250px;
+    background-color: gold;    
+    border-style: ridge;
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.ret13{
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    left:100px;
+    top: 330px;
+    background-color: coral;    
+    border-style: ridge;
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.ret14{
+    position: absolute;
+    width: 400px;
+    height: 85px;
+    left: 100px;
+    top: 410px;
+    background-color: white;
+    border-style: ridge;
+    font-family: serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 4px;
+}
+
+.txt12{
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+}
+
+.emoj4{
+    position: absolute;
+    left: 60px;
+    height: 70px;
+    top: 100px;
+
+}
+
+.emoj5{
+    position: absolute;
+    left: 180px;
+    height: 70px;
+    top: 100px;
+
+}
+
+.emoj6{
+    position: absolute;
+    left: 300px;
+    height: 70px;
+    top: 100px;
+
+}
+
+
+.emoj7{
+    position: absolute;
+    left: 60px;
+    height: 70px;
+    top: 200px;
+
+}
+
+.emoj8{
+    position: absolute;
+    left: 180px;
+    height: 70px;
+    top: 200px;
+
+}
+
+.emoj9{
+    position: absolute;
+    left: 300px;
+    height: 70px;
+    top: 200px;
+
+}
+
+
+
+/* Adicione um efeito de cartão para artigos */
+.login {
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    margin-top: 1px;
+    margin-left: 0px;
+    width: 220px;
+    top: 73px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    border-style: outset;
+}
+
+/* Defina o estilo dos links topnav */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 19px;
+    text-decoration: none;
+}
+
+/* Estilize a barra de navegação superior */
+.topnav {
+    overflow: hidden;
+    background-color: activecaption;
+}
+
+/* Mudar a cor ao pairar */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.painel{
+    position: absolute;
+    width: 543px;
+    height: 91px;
+    left:11px;
+    top: 240px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;   
+}
+
+.menu{
+    position: absolute;
+    padding: 1px;
+    margin-top: 1px;
+    margin-left: 0px;
+    
+    top: 305px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    text-align: left;
+    border-style: outset;
+}
+
+.menu li {
+    padding: 5px;
+    margin-bottom: 2px;
+    background-color: #33b5e5;
+    color: #000033;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    color: #000033;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    padding: 1px;
+}
+
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul.b {
+    list-style-type: square;
+
+}
+
+.gasto{
+    position: absolute;
+    background-color: rgba(211,211,211);
+    padding: 22px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 300px;
+    top: 90px;
+    left: 300px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    border-style: outset;
+}
+
+.renda{
+    position: absolute;
+    background-color: rgba(173,216,230);
+    padding: 22px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 300px;
+    top: 90px;
+    left: 650px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    border-style: outset;
+}
+
+.categoria{
+    position: absolute;
+    background-color: rgba(127,255,212);
+    padding: 33px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 300px;
+    top: 90px;
+    left: 1000px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    border-style: outset;
+}
+
+.usuario{
+    position: absolute;
+    background-color: rgba(240,248,255);
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 300px;
+    top: 380px;
+    left: 450px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-style: outset;
+}
+
+.resumo{
+    position: absolute;
+    background-color: rgba(245,222,179);
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 300px;
+    top: 380px;
+    left: 850px;
+    height: 200px; 
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-style: outset;
+}
+
+
+.button {
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], [type=date], [type=password], [type=email], select, textarea {
+    position: absolute;
+    width: 50%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    left: 30%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+label {
+    padding: 14px;
+    display: inline-block;
+}
+
+.col-25 {
+    float: left;
+    width: 40%;
+    margin-top: 1px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.col-75 {
+    float: right;
+    width: 30%;
+    margin-top: 2px;
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+.salvar {
+    position: absolute;
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 18px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    left: 65%;
+
+}
+.alterar {
+    position: absolute;
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    left: 85%;
+    top: 540px;
+    width: 130px;
+
+}
+.consultar {
+    position: absolute;
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 18px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    left: 75%;
+    top: 120px;
+
+}
+
+.cancelar {
+    position: absolute;
+    background-color: gainsboro;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 18px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border: 2px solid black;
+    left: 78%;
+    width: 13%;
+
+}
+
+table {
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    border-collapse: collapse;
+    width: 93%;
+    top: 90px;
+    left: 33px;
+
+}
+td, th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #B0E0E6;
+}
+
+.cadcat{
+    position: absolute;
+    background-color: transparent;
+    padding: 18px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 800px;
+    top: 75px;
+    left: 280px;
+    height: 650px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;    
+}
+
+.cadcat1{
+    position: absolute;
+    background-color: transparent;
+    padding: 40px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 800px;
+    top: 80px;
+    left: 330px;
+    height: 480px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;    
+}
+
+.cadcat2{
+    position: absolute;
+    background-color: greenyellow;
+    padding: 60px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 800px;
+    top: 80px;
+    left: 430px;
+    height: 570px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;    
+}
+
+.cadcat3{
+    position: absolute;
+    background-color: transparent;
+    padding: 1px;
+    width: 820px;
+    top: 70px;
+    left: 330px;
+    height: 530px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;    
+}
+
+.letra{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.final{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom:0;
+    width: 1366px;
+    margin: auto auto;
+    text-align: center;
+    font-weight: 500;
+    left: 0;
+    max-height: 33px;
+
+}
+
+.container {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 11%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: bisque;
+    padding: 20px;
+
+}
+
+.container1 {
+    position: absolute;
+    width: 74%;
+    left: 15%;
+    top: 11%;
+    height: auto;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 32px;
+    text-align: center;
+    color: darkblue;
+}
+.container2 {
+    position: absolute;
+    width: 450px;
+    left: 150px;
+    top: 150px;
+    height: 330px;
+    border-radius: 30px;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    border-style: ridge;
+}
+
+.container3 {
+    position: absolute;
+    width: 42%;
+    left: 18%;
+    top: 12%;
+    height: 70%;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 10px;
+    border-style: hidden;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container4 {
+    position: absolute;
+    width: 44%;
+    left: 17%;
+    top: 12%;
+    height: 34%;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 8px;
+    border-style:  hidden;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container5 {
+    position: absolute;
+    width: 44%;
+    left: 17%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 15px;
+    top: 320px;
+    border-style: groove;
+}
+
+.container6 {
+    position: absolute;
+    width: 70%;
+    left: 18%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 15px;
+    top: 168px;
+    border-style: groove;
+}
+
+.sucesso{
+    position: absolute;
+    background-color: lightgray;
+    padding: 60px;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 800px;
+    top: 180px;
+    left: 330px;
+    height: 180px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 50px;
+    font-size: 30px;
+    border-style: ridge;
+}
+
+.novo{
+    position: absolute;
+    background-color: coral;
+    padding: 24px;
+    margin-top: 5px;
+    margin-left: 13px;
+    width: 450px;
+    top: 380px;
+    left: 550px;
+    height: 80px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border-style: ridge;
+   
+}
+
+.aqui{
+    position: absolute;
+    background-color: #33b5e5;
+    width: 380px;
+    top: 650px;
+    left: 550px;
+    height: 70px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border-style: ridge;
+    align-items: center;
+    text-align: center;
+}
+
+
